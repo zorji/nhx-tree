@@ -68,7 +68,16 @@
 
         setLength(input);
 
-
+        /**
+         * NHX analyzer converts long node name to short name for performance.
+         * It replaces all spaces to '_' and keep only 8 characters.
+         *
+         * @param str
+         * @returns {string}
+         */
+        function toShortName(str) {
+            return str.substr(0, 8).trim().replace(/ /g, '_');
+        }
 
         var csv = $('#excel').val();
         if (csv && csv.length > 0) {
@@ -86,14 +95,32 @@
             addNodes(input);
 
             var names = _.rest(_.pluck(csv.data, 0));
-            var nameCol = csv.data[1].length - 1;
-            var realNames = _.rest(_.pluck(csv.data, nameCol));
-            _.each(names, function(name, index) {
-                var short = name.substr(0, 8).trim().replace(/ /g, '_');
-                namedNodes[short].name = realNames[index];
-            });
+            var characteristics = _.filter(_.rest(csv.data[0]));
 
-            var characteristics = _.rest(csv.data[0]);
+            var row1 = _.filter(_.rest(csv.data[1]));
+
+            var nameCol = -1, colorCol = -1;
+            if ((row1.length - characteristics.length) == 1) {
+                nameCol = characteristics.length + 1;
+            } else if ((row1.length - characteristics.length) == 2) {
+                nameCol = characteristics.length + 1;
+                colorCol = characteristics.length + 2;
+            }
+
+            if (nameCol >= 0) {
+                var realNames = _.rest(_.pluck(csv.data, nameCol));
+                _.each(names, function(name, index) {
+                    namedNodes[toShortName(name)].name = realNames[index];
+                });
+            }
+
+            if (colorCol >= 0) {
+                var colors = _.rest(_.pluck(csv.data, colorCol));
+                _.each(names, function(name, index) {
+                    namedNodes[toShortName(name)].color = colors[index];
+                });
+            }
+
             _.each(unnamedNodes, function(node) {
                 if (_.has(node, 'b')) {
                     var charIndex = node.b.split(',');

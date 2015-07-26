@@ -241,7 +241,7 @@ if (!d3) { throw "d3 wasn't included!"};
                 .attr("text-anchor", "start")
                 .attr('font-family', 'Helvetica Neue, Helvetica, sans-serif')
                 .attr('font-size', '12px')
-                .attr('fill', 'black')
+                .attr('fill', function(d) { return d.color ? d.color: 'black'; })
                 .text(function(d) { return d.name /*+ ' ('+d.length+')' */; });
 
             vis.selectAll('g.node')
