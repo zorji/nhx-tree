@@ -1,0 +1,70 @@
+id,Failed strategy,competition,Revenue,HLD,Weak Economy,Cash Flow,External Event,Poor Management,Market Price Variance,Weak Industry,International
+8,0,1,0,0,0,1,0,1,0,1,0,"Alleco Inc.,Valley Rivet Company,Transcolor Corporation",#000000
+9,0,0,1,0,0,1,0,1,0,0,0,Alliant ,#000000
+10,1,0,1,0,1,1,0,0,1,1,1,America West ,#000000
+15,1,0,1,0,0,0,0,1,0,1,0,Barry's Jeweler,#000000
+18,0,0,1,0,0,0,0,1,0,1,0,American Shared Hospital Services,#000000
+21,0,0,1,1,1,1,0,0,0,0,0,CNC Holding Corporation,#FF0000
+23,0,0,1,0,0,1,0,1,0,0,1,Carolco,#000000
+24,0,1,0,1,0,1,0,0,0,1,0,Carter Hawley Hale Stores,#000000
+26,1,0,0,0,0,0,0,0,1,1,0,Columbia Gas System,#000000
+27,0,0,1,1,1,0,0,0,1,1,0,Florida Steel,#000000
+28,0,0,1,1,0,1,0,0,1,0,0,Continental Health Affiliates' (CHA),#000000
+29,0,1,0,1,0,0,0,1,0,0,0,AppleTree Markets,#000000
+31,0,0,1,1,0,1,1,0,0,1,0,Cook Inlet Communications,#000000
+32,0,0,1,1,1,0,0,0,0,0,0,The Cooper Companies ('TCC'),#000000
+35,1,1,1,1,0,0,0,0,0,0,0,DSC Communications,#000000
+36,0,1,1,0,0,0,0,0,0,1,0,Diversified Metals Corporation,#000000
+38,1,0,0,0,0,1,0,1,0,0,0, El Paso Electric,#000000
+40,1,1,1,0,0,1,0,0,0,1,0," Entertainment,Premier Innovations",#000000
+41,0,1,0,1,0,1,0,1,0,0,0,Envirodyne,#000000
+45,0,0,0,0,1,1,1,0,1,0,0,First City Bancorporation of Texas (FCBT),#FF0000
+47,0,1,1,1,1,1,0,0,0,1,0,Cherokee Inc,#000000
+54,0,0,1,1,0,1,0,0,0,1,1,Memorex Telex,#000000
+57,1,0,0,0,1,0,0,0,1,0,1,Gulf USA Corporation,#000000
+58,0,0,0,0,0,1,1,0,0,1,0,Adience,#000000
+64,0,0,1,0,1,1,0,1,0,0,0,Hanover,#000000
+65,0,0,1,1,1,0,0,0,0,1,0,Gilbert/Robinson,#000000
+71,0,0,1,0,1,1,0,0,0,1,0,Koger Properties,#000000
+72,0,0,0,0,1,1,1,0,0,1,0,Lomas & Nettleton Mortgage Investors (LNMI),#FF0000
+73,0,0,1,1,1,0,1,0,0,1,0,Ladish,#000000
+76,1,0,1,0,0,1,0,0,0,0,0,Bonneville Pacific Corporation,#000000
+77,0,0,1,1,0,0,1,0,0,0,0,Quantum Chemical Corporation,#000000
+78,0,0,0,1,1,1,1,0,0,0,0,Maxwell Communication Corporation (MCC),#000000
+80,0,0,1,0,1,0,1,0,0,0,0,Riklis Holding Corporation,#FF0000
+82,0,0,1,0,0,1,0,0,1,0,0,Mesa Inc. ('Mesa'),#000000
+83,0,0,1,0,0,0,1,0,1,1,0,Metro Airlines,#000000
+86,0,0,1,0,1,0,0,0,0,1,0,Minstar,#000000
+88,1,0,1,0,1,0,0,0,0,0,0,JWP Inc.,#000000
+90,0,1,1,0,0,1,1,0,1,0,0,National Convenience Stores,#000000
+92,0,0,1,0,1,0,0,0,0,1,0,Bank of New England,#FF0000
+93,0,0,1,0,1,1,0,0,1,0,0,NVF Company ('NVF'),#000000
+94,0,0,1,0,0,1,1,0,1,0,0,"NRM Energy Company, L.P. (NRM)",#000000
+95,0,0,1,0,1,1,0,1,0,0,0,Nortek,#FF0000
+98,0,0,0,1,0,1,0,0,0,1,0, EZ Communications,#000000
+99,0,1,1,0,0,0,1,0,0,0,0,Pacific International,#000000
+100,0,0,1,0,1,1,0,0,0,0,1,Thermadyne Industries,#000000
+102,0,0,1,1,1,1,0,0,0,0,0,Pay 'N Pak (PNP),#000000
+106,0,1,1,1,0,1,0,0,0,0,0,Rapid-American,#000000
+108,0,0,1,1,0,0,0,0,0,1,0,Hills,#000000
+109,0,1,1,0,1,0,0,1,0,0,0,Rymer,#000000
+111,0,1,1,1,1,0,0,0,0,1,0,Seaman Furniture,#000000
+112,0,0,0,1,1,1,0,1,0,1,0, DR Holdings,#FF0000
+113,1,0,1,0,0,1,1,0,0,0,0,Southeast Banking Corporation,#FF0000
+114,0,1,1,0,1,1,0,0,0,0,0,Southeastern Public Service Company,#000000
+115,0,1,1,1,1,0,1,0,0,0,0,Spreckels,#000000
+117,0,1,0,1,1,1,0,0,0,0,0,Sun Carriers,#000000
+119,0,0,1,0,1,0,0,0,0,1,0,Talley Industries,#000000
+120,1,0,0,0,0,1,0,0,0,1,0,NACO Finance Corporation ,#FF0000
+122,0,1,1,1,1,1,1,0,1,1,1,Trans World Airlines,#000000
+123,0,0,1,0,0,1,1,0,0,0,0,"Triton Group, Ltd",#FF0000
+131,0,1,1,0,0,0,0,1,0,1,0,Wang Laboratories Inc. (Wang),#000000
+135,0,0,1,1,1,0,0,1,0,0,0,Zale Corporation,#000000
+139,0,0,1,0,1,1,0,1,0,0,0,Robertson-Ceco,#000000
+146,0,0,1,1,0,0,0,1,0,0,0,Amalgamated Investment Corporation. ,#FF0000
+150,0,0,1,0,0,1,1,0,0,0,0, Marquest Medical,#000000
+152,0,1,0,1,1,1,1,0,0,1,0,Rexene,#000000
+1,0,0,1,0,0,1,0,1,1,0,1,American Eagle Petroleums,#000000
+2,0,0,1,1,1,1,0,0,0,1,0,Bramalea,#000000
+4,0,1,1,1,0,0,0,1,0,1,1,"AM International, Inc",#000000
+7,0,0,1,1,1,1,0,0,0,0,1,"Restaurant Enterprises Group, Inc. (REG)",#000000
